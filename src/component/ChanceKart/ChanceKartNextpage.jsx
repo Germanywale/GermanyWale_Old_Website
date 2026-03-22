@@ -1,7 +1,7 @@
 import React from "react";
 import { Star } from "lucide-react";
 import News from "../News";
-import Footer from "../Footer";
+// import Footer from "../Footer";
 // import News from "./News";
 // import Footer from "./Footer";
 

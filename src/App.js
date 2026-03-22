@@ -32,10 +32,10 @@ import TestimonialsSlider from "./component/reviews/Testimonials";
 import AboutUs from "./component/AboutUs/AboutUs";
 import ThankYouPage from "./component/contact/ThankYouPage";
 import PricingSection from "./component/PaymentPages/PricingSection";
-import { SpeedInsights } from "@vercel/speed-insights/react";
+// import { SpeedInsights } from "@vercel/speed-insights/react";
 import PARP2 from "./component/PrivacyAndRefundPolicy/PARP2";
 import TAndC from "./component/TermsandCondition/TAndC";
-import Product from "./Product";
+// import Product from "./Product";
 import ReactGA from "react-ga4";
 import ChanceKartHero from "./component/ChanceKart/ChanceKartHero";
 
@@ -61,7 +61,7 @@ function App() {
         <ScrollToTop /> {/* Scroll to top logic */}
         <Header />
         <Navbar />
-        <SpeedInsights />
+        {/* <SpeedInsights /> */}
         {/* <Product /> */}
         {/* Routing */}
         <Routes>
